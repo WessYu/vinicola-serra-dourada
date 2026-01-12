@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:focus-visible {
+  outline: 2px solid rgba(111, 47, 73, 0.6);
+  outline-offset: 3px;
+}
+
+html { scroll-behavior: smooth; }
+
+
+body { background: #09090b; color: #f4f4f5; }
