@@ -9,5 +9,14 @@
 
 html { scroll-behavior: smooth; }
 
-
 body { background: #09090b; color: #f4f4f5; }
+
+main > section {
+  content-visibility: auto;
+  contain-intrinsic-size: 760px;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
